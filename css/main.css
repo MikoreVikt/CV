@@ -54,7 +54,7 @@ main {
   margin-bottom: 40px;
 }
 
-.about_position {
+.about__position {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -64,7 +64,7 @@ main {
   height: 17px;
 }
 
-.about_name {
+.about__name {
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
@@ -73,7 +73,7 @@ main {
   height: 50px;
 }
 
-.about_description {
+.about__description {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -96,12 +96,12 @@ main {
   margin-bottom: 10px;
 }
 
-.project_list {
+.project__list {
   padding: 0;
   margin-left: 15px;
 }
 
-.project_item {
+.project__item {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -109,8 +109,8 @@ main {
   color: var(--main-text-color);
 }
 
-.project_span,
-.project_link {
+.project__span,
+.project__link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -118,11 +118,11 @@ main {
   color: var(--main-2-text-color);
 }
 
-.project_link {
+.project__link {
   margin-left: 10px;
 }
 
-.project_bracket {
+.project__bracket {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -131,13 +131,26 @@ main {
 }
 
 /* work styles */
-.work_position {
+.work__position {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: var(--main-text-color);
   margin-bottom: 10px;
+}
+
+.work__list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.work__list--item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--main-2-text-color);
 }
 
 .organization {
@@ -165,21 +178,8 @@ main {
   color: var(--main-text-color);
 }
 
-.work_list {
-  padding: 0;
-  margin-left: 15px;
-}
-
-.work_list_item {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: var(--main-2-text-color);
-}
-
 /* education styles */
-.education_position {
+.education__position {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -188,7 +188,7 @@ main {
   margin-bottom: 10px;
 }
 
-.education_management {
+.education__management {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -198,7 +198,7 @@ main {
   margin-bottom: 10px;
 }
 
-.education_period {
+.education__period {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -221,7 +221,7 @@ main {
   margin-bottom: 10px;
 }
 
-.IMG-7628 {
+.profile-image {
   width: 370px;
   margin-bottom: 50px;
 }

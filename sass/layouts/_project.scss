@@ -13,12 +13,12 @@
     margin-bottom: 10px;
 }
 
-.project_list {
+.project__list {
     padding: 0;
     margin-left: 15px;
 }
 
-.project_item {
+.project__item {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -26,8 +26,8 @@
     color: var(--main-text-color);
 }
 
-.project_span,
-.project_link {
+.project__span,
+.project__link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -35,11 +35,11 @@
     color: var(--main-2-text-color);
 }
 
-.project_link {
+.project__link {
     margin-left: 10px;
 }
 
-.project_bracket {
+.project__bracket {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
