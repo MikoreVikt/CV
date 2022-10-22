@@ -1,0 +1,48 @@
+/* project styles */
+.project {
+    margin-bottom: 50px;
+}
+
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--main-text-color);
+    margin-bottom: 10px;
+}
+
+.project_list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.project_item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--main-text-color);
+}
+
+.project_span,
+.project_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--main-2-text-color);
+}
+
+.project_link {
+    margin-left: 10px;
+}
+
+.project_bracket {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--main-text-color);
+}

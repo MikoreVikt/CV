@@ -1,0 +1,21 @@
+/* sidebar styles */
+
+.sidebar {
+    background-color: var(--bg-sidebar-color);
+    padding-top: 40px;
+    min-width: 370px;
+
+    &__title {
+            color: var(--white-color);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+            margin-bottom: 10px;
+        }
+}
+
+.IMG-7628 {
+    width: 370px;
+    margin-bottom: 50px;
+}
