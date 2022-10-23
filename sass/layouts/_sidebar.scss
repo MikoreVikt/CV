@@ -2,7 +2,7 @@
 
 .sidebar {
     background-color: var(--bg-sidebar-color);
-    padding-top: 40px;
+    padding: 40px;
     min-width: 370px;
 
     &__title {
@@ -18,4 +18,5 @@
 .profile-image {
     width: 370px;
     margin-bottom: 50px;
+    border-radius: 30px;
 }

@@ -1,5 +1,9 @@
 /* work styles */
 
+.company-container:not(:last-child) {
+    margin-bottom: 20px;
+}
+
 .work__position {
     font-style: normal;
     font-weight: 700;
