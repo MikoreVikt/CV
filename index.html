@@ -18,50 +18,73 @@
     <main>
         <!--mainbar-->
         <div class="mainbar">
+
             <!--about user-->
             <section class="section about">
                 <h2 class="about__position">Front-End Developer</h2>
                 <h1 class="about__name">Anton Tkachenko</h1>
-                <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna
-                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-                    facilisis.</p>
+                <p class="about__description">Привет! Меня зовут Антон и я Junior
+                    Front-End Developer! Мне нравиться писать код, продумывать алгоритм и версать. Я имею
+                    опыт как персональных проектов, так и командных в роли Team Lead.
+                    <br> Владею <span class="about__description--orange">HTML5/CSS3, JavaScript</span>.
+                    <br> Изучаю <span class="about__description--orange">Node.js, React.js и TypeScript</span>.
+                </p>
 
             </section>
-            <!--projects-->
-            <section class="section project">
-                <h3 class="title">
-                    Projects
-                </h3>
 
-                <ol class="project__list">
-                    <li class="project__item">
-                        <span class="project__span">
-                            <a href="https://hellenglish.goit.global/"
-                                class="project__link">https://hellenglish.goit.global/</a>
-                            ..........
-                            <span class="project__bracket">[</span> HTML5, CSS3 <span class="project__bracket">]</span>
-                        </span>
-                    </li>
-                    <li class="project__item">
-                        <span class="project__span">
-                            <a href="https://cryptohub.goit.global/"
-                                class="project__link">https://cryptohub.goit.global/</a>
-                            ...........
-                            <span class="project__bracket">[</span> JavaScript <span class="project__bracket">]</span>
-                        </span>
-                    </li>
-                    <li class="project__item">
-                        <span class="project__span">
-                            <a href="https://kidslike.goit.global/"
-                                class="project__link">https://kidslike.goit.global/</a>
-                            ..................
-                            <span class="project__bracket">[</span> React.js, Node.js <span
-                                class="project__bracket">]</span>
-                        </span>
-                    </li>
-                </ol>
+            <!-- skills -->
+            <section class="section skills">
+                <!--markup-->
+                <div class="skills__markup">
+                    <h3 class="skills__title">HTML5/CSS3</h3>
+                    <ul class="skills__list">
+                        <li class="skills__item"><span class="skills__text">Validation</span></li>
+                        <li class="skills__item"><span class="skills__text">FlexBox</span></li>
+                        <li class="skills__item"><span class="skills__text">Animation</span></li>
+                        <li class="skills__item"><span class="skills__text">BEM</span></li>
+                        <li class="skills__item"><span class="skills__text">SASS/SCSS</span></li>
+                        <li class="skills__item"><span class="skills__text">Adaptive</span></li>
+                        <li class="skills__item"><span class="skills__text">Responsive</span></li>
+                        <li class="skills__item"><span class="skills__text">Mobile First</span></li>
+                        <li class="skills__item"><span class="skills__text">Retina</span></li>
+                    </ul>
+                </div>
+                <!--techskills-->
+                <div class="skills__stechskills">
+                    <h3 class="skills__title">JavaScript</h3>
+                    <ul class="skills__list">
+                        <li class="skills__item"><span class="skills__text">EcmaScript</span></li>
+                        <li class="skills__item"><span class="skills__text">Циклы</span></li>
+                        <li class="skills__item"><span class="skills__text">Массивы</span></li>
+                        <li class="skills__item"><span class="skills__text">Функции</span></li>
+                        <li class="skills__item"><span class="skills__text">Объекты</span></li>
+                        <li class="skills__item"><span class="skills__text">Колбэк-функции</span></li>
+                        <li class="skills__item"><span class="skills__text">Prototype</span></li>
+                        <li class="skills__item"><span class="skills__text">Классы</span></li>
+                        <li class="skills__item"><span class="skills__text">DOM</span></li>
+                        <li class="skills__item"><span class="skills__text">События</span></li>
+                        <li class="skills__item"><span class="skills__text">Throttle/Debounce</span></li>
+                        <li class="skills__item"><span class="skills__text">NPM</span></li>
+                        <li class="skills__item"><span class="skills__text">JSON</span></li>
+                        <li class="skills__item"><span class="skills__text">Web Storage API</span></li>
+                        <li class="skills__item"><span class="skills__text">Promise</span></li>
+                        <li class="skills__item"><span class="skills__text">CRUD</span></li>
+                    </ul>
+                </div>
+                <!-- utilites -->
+                <div class="skills__utils">
+                    <h3 class="skills__title">Utilites</h3>
+                    <ul class="skills__list">
+                        <li class="skills__item"><span class="skills__text">VSC</span></li>
+                        <li class="skills__item"><span class="skills__text">Git</span></li>
+                        <li class="skills__item"><span class="skills__text">Github</span></li>
+                        <li class="skills__item"><span class="skills__text">Webpack</span></li>
+                        <li class="skills__item"><span class="skills__text">Parcel</span></li>
+                        <li class="skills__item"><span class="skills__text">Figma</span></li>
+                    </ul>
+                </div>
             </section>
+
             <!--work experience-->
             <section class="section">
                 <h3 class="title">Work Experience</h3>
@@ -113,6 +136,7 @@
         <!--sidebar-->
         <aside class="sidebar">
             <img src="./images/IMG-7628.JPG" alt="User photo" class="profile-image">
+
             <!--Contacts-->
             <div class="contacts">
                 <h3 class="sidebar__title">Contacts</h3>
@@ -127,29 +151,41 @@
                     </p>
                 </div>
             </div>
-            <!--TechSkills-->
-            <div class="techskills">
-                <h3 class="sidebar__title">Tech Skills</h3>
-                <ul class="techskills__list">
-                    <li class="techskills__item"><span class="techskills__text">HTML5</span></li>
-                    <li class="techskills__item"><span class="techskills__text">CSS3</span></li>
-                    <li class="techskills__item"><span class="techskills__text">GIT</span></li>
-                    <li class="techskills__item"><span class="techskills__text">WebPack</span></li>
-                    <li class="techskills__item"><span class="techskills__text">JavaScript</span></li>
-                    <li class="techskills__item"><span class="techskills__text">React.js</span></li>
-                    <li class="techskills__item"><span class="techskills__text">Node.js</span></li>
-                </ul>
-            </div>
-            <!--SoftSkills-->
-            <div class="softskills">
-                <h3 class="sidebar__title">Soft Skills</h3>
-                <ul class="softskills__list">
-                    <li class="softskills__item"><span class="softskills__text">Scrum</span></li>
-                    <li class="softskills__item"><span class="softskills__text">Agile</span></li>
-                    <li class="softskills__item"><span class="softskills__text">GTD</span></li>
-                    <li class="softskills__item"><span class="softskills__text">Teamwork</span></li>
-                </ul>
-            </div>
+
+            <!--projects-->
+            <section class="section project">
+                <h3 class="title">
+                    Projects
+                </h3>
+
+                <ol class="project__list">
+                    <li class="project__item">
+                        <span class="project__span">
+                            <a href="https://hellenglish.goit.global/"
+                                class="project__link">https://hellenglish.goit.global/</a>
+                            ..........
+                            <span class="project__bracket">[</span> HTML5, CSS3 <span class="project__bracket">]</span>
+                        </span>
+                    </li>
+                    <li class="project__item">
+                        <span class="project__span">
+                            <a href="https://cryptohub.goit.global/"
+                                class="project__link">https://cryptohub.goit.global/</a>
+                            ...........
+                            <span class="project__bracket">[</span> JavaScript <span class="project__bracket">]</span>
+                        </span>
+                    </li>
+                    <li class="project__item">
+                        <span class="project__span">
+                            <a href="https://kidslike.goit.global/"
+                                class="project__link">https://kidslike.goit.global/</a>
+                            ..................
+                            <span class="project__bracket">[</span> React.js, Node.js <span
+                                class="project__bracket">]</span>
+                        </span>
+                    </li>
+                </ol>
+            </section>
         </aside>
     </main>
 
