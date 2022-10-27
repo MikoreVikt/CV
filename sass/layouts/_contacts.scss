@@ -1,27 +1,25 @@
 // contacts styles
 
 .contacts {
-    margin-left: 40px;
-}
-
-.contacts {
     margin-bottom: 50px;
 }
 
 .contacts__type {
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
     color: var(--white-color);
     margin-right: 10px;
 }
 
 .contacts__link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: var(--main-5-text-color);
-    text-decoration: underline;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--white-color);
+}
+
+.contacts__link:hover,
+.contacts__link:hover .contacts__type,
+.contacts__link:focus,
+.contacts__link:focus .contacts__type {
+    font-size: 20px;
+    color: var(--accent-color);
 }
