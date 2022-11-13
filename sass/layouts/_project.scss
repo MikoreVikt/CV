@@ -11,6 +11,7 @@
 }
 
 .project__link {
+    font-weight: 400;
     margin-left: 10px;
     color: var(--white-color);
 }
@@ -18,5 +19,6 @@
 .project__link:hover,
 .project__link:focus {
     font-size: 20px;
+    font-weight: 700;
     color: var(--accent-color);
 }

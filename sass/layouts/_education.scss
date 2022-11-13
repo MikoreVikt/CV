@@ -1,11 +1,16 @@
 /* education styles */
 
-.education__position {
+
+.education__item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.university {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: var(--accent-color);
+    color: var(--white-color);
     margin-bottom: 10px;
 }
 
@@ -14,7 +19,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    color: var(--main-text-color);
+    color: var(--white-color);
     margin: 0;
     margin-bottom: 10px;
 }
@@ -24,5 +29,18 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
-    color: var(--main-4-text-color);
+    color: var(--white-color);
+}
+
+.education__link:hover h4,
+.education__link:focus h4 {
+    color: var(--accent-color);
+}
+.education__link:hover h5,
+.education__link:focus h5,
+.education__link:hover p,
+.education__link:focus p {
+    color: var(--accent-color);
+    font-size: 18px;
+    font-weight: bold;
 }
