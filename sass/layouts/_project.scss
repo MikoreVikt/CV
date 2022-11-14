@@ -1,13 +1,14 @@
 /* project styles */
 
 .project__list {
+    list-style-type: disc;
     margin-left: 20px;
+    color: var(--accent-color);
 }
 
 .project__item {
     font-weight: 700;
     line-height: 30px;
-    color: var(--white-color);
 }
 
 .project__link {

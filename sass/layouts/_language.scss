@@ -1,0 +1,21 @@
+.language {
+    display: flex;
+    flex-direction: column;
+}
+
+.language__list {
+    list-style-type: disc;
+    color: var(--accent-color);
+}
+
+.language__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.language__item span {
+    font-weight: bold;
+}
+
+.language__item p {
+    color: var(--main-text-color);
+}
